@@ -129,12 +129,14 @@ ul.cities {
 }
 
 li.city {
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   flex-shrink: 1;
   width: 350px;
+  height: 400px;
   margin: 15px;
   background-color: rgb(236, 236, 236);
   border: #1f2937 solid 5px;
@@ -174,3 +176,10 @@ li.city {
 /* ================
   Quote Section
 =================== */
+.quote {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
