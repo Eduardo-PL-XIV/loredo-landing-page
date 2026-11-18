@@ -111,6 +111,7 @@ Information section (aka Destinations) design
   border: solid rgb(0, 0, 88) 5px;  
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .d-header {
@@ -118,4 +119,58 @@ Information section (aka Destinations) design
   color: #1f2937;
   font-weight: 900;
   align-self: center;
+  margin: 30px;
 }
+
+ul.cities {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+li.city {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 1;
+  width: 350px;
+  margin: 15px;
+  background-color: rgb(236, 236, 236);
+  border: #1f2937 solid 5px;
+  border-radius: 25px;
+  padding: 15px;
+  box-shadow: 4px 4px 0px rgba(15, 15, 15, 0.15);
+}
+
+.cities img{
+  border: solid 5px #3882F6;
+  margin: 5px;
+}
+
+.spain img{
+  height: 250px;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+.city-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 5px;
+}
+
+.country-code {
+  font-size: 14px;
+  font-weight: 700;
+  color: gray;
+}
+
+.city-des {
+  text-align: center;
+  margin: 5px;
+}
+
+/* ================
+  Quote Section
+=================== */
