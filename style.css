@@ -183,3 +183,25 @@ li.city {
   align-items: center;
   padding: 50px;
 }
+
+.main-quote {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+  font-style: italic;
+  margin: 0;
+}
+
+.author {
+  align-self: center ;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: bolder;
+  font-style: italic;
+  margin: 0;
+
+}
+
+/* ================
+  Call to action
+=================== */
