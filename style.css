@@ -3,15 +3,26 @@ body {
   margin: 0%;
 }
 
+
+/* =========================
+    Color for Header & Footer
+============================ */
 .top, .footer {
   background-color: #1f2937;
 }
 
+
+/* =========================
+    Portion one alignment
+============================ */
 .top {
   display: flex;
   flex-direction: column;
 }
 
+/* =========================
+    Header
+============================ */
 .header {
   border: solid rgb(0, 0, 88) 5px;  
   background-color: #e9e9e9;
@@ -46,6 +57,10 @@ a {
   font-size: 18px;
 }
 
+
+/* =========================
+    Hero
+============================ */
 .hero {
   display: flex;
   justify-content: center;
@@ -85,4 +100,22 @@ button {
 
 .right-hero {
   margin: 20px;
+}
+
+/* ==========================================
+Information section (aka Destinations) design 
+============================================= */
+.destinations {
+  background-color: white;
+  margin: 0px;
+  border: solid rgb(0, 0, 88) 5px;  
+  display: flex;
+  flex-direction: column;
+}
+
+.d-header {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  align-self: center;
 }
