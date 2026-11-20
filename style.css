@@ -181,7 +181,7 @@ li.city {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 50px;
+  padding: 100px;
 }
 
 .main-quote {
@@ -204,4 +204,46 @@ li.city {
 
 /* ================
   Call to action
+=================== */
+.cta {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  border: solid rgb(0, 0, 88) 5px;  
+}
+
+.cta-card {
+  display: flex;
+  background-color: #3882F6;
+  border-radius: 25px;
+  padding: 50px 75px;
+  align-items: center;
+  gap: 20px;
+  flex-grow: 1;
+  justify-content: space-evenly;
+}
+
+.cta-button {
+  border: solid white 3px;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.cta-header {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  margin: 5px;
+}
+
+.cta-body {
+  color: white;
+  margin: 5px;
+
+}
+
+/* ================
+ Footer
 =================== */
